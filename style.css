@@ -1,0 +1,106 @@
+body {
+    background-image: url('images/background.jpg');
+/* الخلفية الأساسية */
+body {
+    background-image: url('background.jpg'); /* اسم صورة الخلفية */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* الشعار */
+.header-logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+}
+
+/* التنقل */
+header nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header nav a.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 0 8px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+header nav a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* المحتوى الرئيسي */
+.main-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* جداول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+/* الأزرار */
+.btn {
+    padding: 8px 14px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.btn.edit { background-color: #ffc107; color: #000; }
+.btn.delete { background-color: #dc3545; }
+.btn.add { background-color: #28a745; margin-bottom: 12px; display: inline-block; }
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* رسائل النجاح والخطأ */
+.msg {
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
